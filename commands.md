@@ -12,16 +12,6 @@ description: 'In this page, you will find all the commands of the bot.'
 
 ## Counters
 
-### Bot Count
-
-Toggles the bot counter on or off. This displays the total amount of bots in this server. 
-
-#### Usage:
-
-```text
-m!botcount <on/off>
-```
-
 ### Member Count
 
 Toggles the member counter on or off. This displays the total amount of members in this server. 
@@ -34,7 +24,7 @@ m!membercount <on/off>
 
 ### User Count
 
-Toggles the user counter on or off. This displays the total amount of users \(people\) in this server. 
+Toggles the user counter on or off. This displays the total amount of users \(humans\) in this server. 
 
 #### Usage:
 
@@ -42,11 +32,25 @@ Toggles the user counter on or off. This displays the total amount of users \(pe
 m!usercount <on/off>
 ```
 
+### Bot Count
+
+Toggles the bot counter on or off. This displays the total amount of bots in this server.
+
+#### Usage:
+
+```text
+m!botcount <on/off>
+```
+
 ## Utility 
 
-### Counter Name \(Premium\)
+### Counter Name \(Patron-only\)
 
-Changes the name of the specified counter IN FRONT OF the `:`. Specify which counter with member, user or bot. Example: `m!countername user Hobbits` This sets the usercounter to display `Hobbits: 99`. 
+Changes the name of the specified counter **in front of** the `:`. Specify which counter with member, user or bot.
+
+Example: `m!countername user Hobbits`
+
+This sets the usercounter to display `Hobbits: 99`. 
 
 #### Usage:
 
@@ -77,7 +81,11 @@ m!invite
 
 ### Member List
 
-Returns a text file \(.txt\) with a list of copy-pasteable usernames of the members in your server. 
+Returns a text file \(.txt\) with a list of copy-pasteable usernames of the members in your server.
+
+{% hint style="info" %}
+Note that if this returns one long string of characters, open the list in a different text editor.
+{% endhint %}
 
 #### Flags: 
 
@@ -98,7 +106,7 @@ m!memberlist [-ids] [-nicks]
 
 ### Setup
 
-Reverts all of the settings back to default and turns every counter on. Very useful for when you want to quickly set me up like normal. 
+Reverts all of the settings back to default and turns every counter on. Very useful for when you want to quickly set the bot up like normal. 
 
 #### Usage:
 
@@ -108,7 +116,7 @@ m!setup
 
 ### Support
 
-Returns with an invite link to my support server. 
+Returns with an invite link to the support server. 
 
 #### Usage:
 

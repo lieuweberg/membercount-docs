@@ -1,12 +1,14 @@
 ---
 description: >-
-  A member counting bot that counts total members, users and bots using channel
-  titles.
+  Member Count is a Discord bot that counts total members, users and bots using
+  channel titles.
 ---
 
-# What is Member Count
+# Member Count
 
 ## Features
+
+See the [website ](www.bit.ly/member-count)for more information.
 
 ### Fancy Counting
 
@@ -18,33 +20,13 @@ Cosmetic counters, aesthetically pleasing for both you and your server members. 
 > > User Count: 880  
 > > Bot Count: 8
 
-### Easy Setup
-
-Only one command is needed for the setup of this bot, `m!setup`. This command also restores the default values if you want to quickly reset them.
-
-> **lieuwe\_berg**  
-> m!setup
-
-> **Member Count**  
-> Everything has been configured!
-
-### Configurable
-
-Want to turn a counter off? Feel free to do so! All of the commands can be viewed from the help menu, `m!help`.
-
-> **lieuwe\_berg**  
-> m!membercount off
-
-> **Member Count**  
-> I turned off the member counter and deleted the channel.
-
 ## Getting Started
 
-The best way to discover more about the bot is to try it out yourself. To help you get started with Member Count, we have prepared a simple guide:
+The best way to discover more about the bot is to try it out yourself. To help you get started with Member Count, this guide helps you further.
 
 {% page-ref page="getting-started.md" %}
 
-Check out our Frequently Asked Questions page too:
+Also check out the Frequently Asked Questions page.
 
 {% page-ref page="faq.md" %}
 
