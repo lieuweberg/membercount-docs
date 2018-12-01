@@ -1,7 +1,3 @@
----
-description: Setting up Member Count doesn't require a lot of effort.
----
-
 # Getting Started
 
 ## Setup

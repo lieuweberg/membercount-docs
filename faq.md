@@ -1,7 +1,3 @@
----
-description: 'In this page, you will find the answers to most of your questions.'
----
-
 # FAQ
 
 ## Why is the bot not responding?

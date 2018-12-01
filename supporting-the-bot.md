@@ -1,7 +1,3 @@
----
-description: There are various ways you can help us to improve the bot.
----
-
 # Supporting The Bot
 
 ## Donations

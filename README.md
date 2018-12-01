@@ -1,9 +1,3 @@
----
-description: >-
-  Member Count is a Discord bot that counts total members, users and bots using
-  channel titles.
----
-
 # Member Count
 
 ## Features
