@@ -17,7 +17,7 @@ description: 'In this page, you will find all the commands of the bot.'
 > Toggles the member counter on or off. This displays the total amount of members in this server. 
 > 
 > #### Usage:
-
+>
 > ```text
 > m!membercount <on/off>
 > ```
