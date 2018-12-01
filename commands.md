@@ -14,33 +14,33 @@ description: 'In this page, you will find all the commands of the bot.'
 
 ### Member Count
 
-Toggles the member counter on or off. This displays the total amount of members in this server. 
+> Toggles the member counter on or off. This displays the total amount of members in this server. 
+> 
+> #### Usage:
 
-#### Usage:
-
-```text
-m!membercount <on/off>
-```
+> ```text
+> m!membercount <on/off>
+> ```
 
 ### User Count
 
-Toggles the user counter on or off. This displays the total amount of users \(humans\) in this server. 
-
-#### Usage:
-
-```text
-m!usercount <on/off>
-```
+> Toggles the user counter on or off. This displays the total amount of users \(humans\) in this server. 
+>
+> #### Usage:
+>
+> ```text
+> m!usercount <on/off>
+> ```
 
 ### Bot Count
 
-Toggles the bot counter on or off. This displays the total amount of bots in this server.
-
-#### Usage:
-
-```text
-m!botcount <on/off>
-```
+> Toggles the bot counter on or off. This displays the total amount of bots in this server.
+>
+> #### Usage:
+>
+> ```text
+> m!botcount <on/off>
+> ```
 
 ## Utility 
 
