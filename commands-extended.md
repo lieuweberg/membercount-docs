@@ -2,7 +2,7 @@
 description: 'On this page, you will find all the commands of the bot.'
 ---
 
-# Commands
+# Commands \(extended\)
 
 ## Legend
 

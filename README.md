@@ -10,9 +10,9 @@ Cosmetic counters, aesthetically pleasing for both you and your server members. 
 
 > 📊**SERVER STATS**📊
 >
-> > Member Count: 888  
-> > User Count: 880  
-> > Bot Count: 8
+>     Member Count: 888  
+>     User Count: 880  
+>     Bot Count: 8
 
 ## Getting Started
 

@@ -5,7 +5,7 @@
 1. Invite the bot with this [link](https://discordapp.com/api/oauth2/authorize?client_id=432533456807919639&permissions=8&scope=bot). Be sure to give it the `Administrator` permission.
 2. Type `m!setup`.
 
-![](.gitbook/assets/image%20%282%29.png)
+![](.gitbook/assets/image.png)
 
 With simply two steps, the setup for Member Count is done.
 
@@ -17,7 +17,7 @@ Member count: `m!membercount <on/off>`
 User count: `m!usercount <on/off>`  
 Bot count: `m!botcount <on/off>`
 
-More information on this can be found on the [commands ](commands.md)page.
+More information on this can be found on the [commands ](commands-extended.md)page.
 
 ## Support
 
