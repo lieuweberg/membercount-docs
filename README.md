@@ -2,7 +2,7 @@
 
 ## Features
 
-See the [website ](www.bit.ly/member-count)for more information.
+See the [website ](https://bit.ly/member-count)for more information.
 
 ### Fancy Counting
 

@@ -1,7 +1,3 @@
----
-description: A list of frequently asked questions regarding the bot.
----
-
 # FAQ
 
 ## Why is the bot not responding?

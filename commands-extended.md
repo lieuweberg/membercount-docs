@@ -47,7 +47,7 @@ description: 'On this page, you will find all the commands of the bot.'
 ### Counter Name \(Patron-only\)
 
 > Changes the name of the specified counter **in front of** the `:`. Specify which counter with member, user or bot.
-> 
+>
 > Example: `m!countername user Hobbits`
 >
 > This sets the usercounter to display `Hobbits: 99`.
@@ -83,13 +83,11 @@ description: 'On this page, you will find all the commands of the bot.'
 
 > Returns a text file \(.txt\) with a list of copy-pasteable usernames of the members in your server.
 >
-> {% hint style="info" %}
 > Note that if this returns one long string of characters, open the list in a different text editor.
-> {% endhint %}
 >
 > #### Flags:
 >
-> `-ids` includes the id of every user, seperated by `||`. `-nicks` instead of usernames, this will return nicknames. _You can use both > flags in one command._
+> `-ids` includes the id of every user, seperated by `||`. `-nicks` instead of usernames, this will return nicknames. _You can use both &gt; flags in one command._
 >
 > #### Examples:
 >
@@ -99,7 +97,7 @@ description: 'On this page, you will find all the commands of the bot.'
 > ```
 >
 > #### Usage:
-
+>
 > ```text
 > m!memberlist [-ids] [-nicks]
 > ```
@@ -153,7 +151,7 @@ description: 'On this page, you will find all the commands of the bot.'
 > Returns all of the permanently stored data about your server. I want you to know that you are safe.
 >
 > #### Usage:
-> 
+>
 > ```text
 > m!data
 > ```

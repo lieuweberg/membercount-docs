@@ -1,7 +1,3 @@
----
-description: A list of all the commands and their additional arguments.
----
-
 # Commands
 
 {% hint style="info" %}
