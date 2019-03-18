@@ -6,28 +6,92 @@ Refer to [Commands \(extended\)](commands-extended.md) to also find a descriptio
 
 ## Legend
 
-`< >` Required argument
+`<>` Required argument
 
-`[ ]` Optional argument
+`[]` Optional argument
 
-| Command | Arguments |
-| :--- | :--- |
-| **Counters** |  |
-| m!membercount | &lt;on / off&gt; |
-| m!usercount | &lt;on / off&gt; |
-| m!botcount | &lt;on / off&gt; |
-| **Utility** |  |
-| m!countername | &lt;counter&gt; &lt;name&gt; |
-| m!help | \[command\] |
-| m!invite |  |
-| m!memberlist | \[-ids\] \[-nicks\] |
-| m!setup |  |
-| m!support |  |
-| **Category** |  |
-| m!createcategory |  |
-| m!updatecategory |  |
-| **Other** |  |
-| m!data |  |
-| m!info |  |
-| m!ping |  |
+## Commands List
 
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Command</th>
+      <th style="text-align:left">Arguments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>Main</b>
+      </td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">m!category</td>
+      <td style="text-align:left">
+        <p>create</p>
+        <p>update</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">m!counter</td>
+      <td style="text-align:left">
+        <p>&lt;counter&gt; &lt;on/off&gt;</p>
+        <p>update</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">m!countername</td>
+      <td style="text-align:left">&lt;counter&gt; &lt;name&gt;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">m!setup</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Utility</b>
+      </td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">m!help</td>
+      <td style="text-align:left">[command]</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">m!invite</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">m!memberlist</td>
+      <td style="text-align:left">[-ids] [-nicks]</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">m!support</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Other</b>
+      </td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">m!data</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">m!info</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">m!ping</td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>

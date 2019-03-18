@@ -8,7 +8,7 @@ Visit the [Patreon](https://www.patreon.com/member_count) page and become a patr
 
 ## Upvote
 
-You can visit [discordbots.org](https://discordbots.org/bot/membercount) and click on the _Upvote_ button for Member Count. Doing something as simple as that every day will certainly help to grow the bot!
+You can visit [discordbots.org](https://discordbots.org/bot/membercount) and click on the 'Upvote' button for Member Count. Doing something as simple as that every day will certainly help the bot to grow!
 
 ## Voluntary Support
 

@@ -10,70 +10,101 @@ description: 'On this page, you will find all the commands of the bot.'
 
 `[]` Optional argument
 
-## Counters
+## Main
 
-### Member Count
+### Category
 
-> Toggles the member counter on or off. This displays the total amount of members in this server.
+> Use the command `m!category create` to create a category named '📊 Server Stats 📊'. 
 >
-> #### Usage:
+> If the category already exists, you can use `m!category update` to move all the counters back there.
+>
+> #### Usage
 >
 > ```text
 > m!membercount <on/off>
 > ```
-
-### User Count
-
-> Toggles the user counter on or off. This displays the total amount of users \(humans\) in this server.
 >
-> #### Usage:
+> #### Alias
 >
-> ```text
-> m!usercount <on/off>
-> ```
+> `cat`
 
-### Bot Count
+### Counter
 
-> Toggles the bot counter on or off. This displays the total amount of bots in this server.
+> The bot's most important command. With this command you can toggle counters on and off. The channels can also be updated with this command, using `m!counter update`. 
 >
-> #### Usage:
+> **Examples:**
 >
 > ```text
-> m!botcount <on/off>
+> m!counter user on => turns the user counter on
+> m!counter channels off => turns the channels counter off.
 > ```
-
-## Utility
-
-### Counter Name \(Patron-only\)
-
-> Changes the name of the specified counter **in front of** the `:`. Specify which counter with member, user or bot.
 >
-> Example: `m!countername user Hobbits`
+>  For a list of counters, do `m!counter`.
 >
-> This sets the usercounter to display `Hobbits: 99`.
+> #### Usage
 >
-> #### Usage:
+> ```text
+> m!counter <counter> <on/off>
+> m!counter update
+> ```
+>
+> #### Aliases
+>
+> `channel`, `count`
+
+### Counter Name \(Patrons only\)
+
+> Changes the name of the specified counter. The available counters are member, user, bot, roles, channels. Include `{count}` in the name, where you want the count \(the number\) to be. 
+>
+> **Example:**
+>
+> ```text
+> m!countername user {count} very cool people
+> ```
+>
+>  This will set the user counter to display as `99 very cool people`.
+>
+> #### Usage
 >
 > ```text
 > m!countername <counter> <name>
 > ```
+>
+> #### Alias
+>
+> `cname`
+
+### Setup
+
+> Very useful for when you want to quickly set me up like normal. Reverts all of the settings back to default and turns every counter on. This will also create the counters and the category.
+>
+> #### Usage
+>
+> ```
+> m!setup
+> ```
+
+## Utility
 
 ### Help
 
 > Returns the help menu with all the commands or, when specified, information about a command.
 >
-> #### Usage:
+> #### Usage
 >
 > ```text
-> m!help
-> m!help <command>
+> m!help [command]
 > ```
+>
+> #### Aliases
+>
+> `h`, `commands`
 
 ### Invite
 
 > Returns with my invite link.
 >
-> #### Usage:
+> #### Usage
 >
 > ```text
 > m!invite
@@ -81,76 +112,52 @@ description: 'On this page, you will find all the commands of the bot.'
 
 ### Member List
 
-> Returns a text file \(.txt\) with a list of copy-pasteable usernames of the members in your server.
+> Returns a text file \(.txt\) with a list of copy-pasteable usernames of the members in your server. 
 >
-> Note that if this returns one long string of characters, open the list in a different text editor.
+> **Flags:** 
 >
-> #### Flags:
+> `-ids` includes the id of every user, separated by `||`.   
+> `-nicks` instead of usernames, this will return nicknames.   
+> _You can use both flags in one command._ 
 >
-> `-ids` includes the id of every user, seperated by `||`. `-nicks` instead of usernames, this will return nicknames. _You can use both &gt; flags in one command._
->
-> #### Examples:
+> **Examples:**
 >
 > ```text
 > m!memberlist -nicks
 > m!memberlist -ids -nicks
 > ```
 >
-> #### Usage:
+> #### Usage
 >
 > ```text
 > m!memberlist [-ids] [-nicks]
 > ```
-
-### Setup
-
-> Reverts all of the settings back to default and turns every counter on. Very useful for when you want to quickly set the bot up like normal.
 >
-> #### Usage:
+> #### Alias
 >
-> ```text
-> m!setup
-> ```
+> `mlist`
 
 ### Support
 
-> Returns with an invite link to the support server.
+> Returns with an invite link to my support server.
 >
-> #### Usage:
+> #### Usage
 >
 > ```text
 > m!support
 > ```
-
-## Category
-
-### Create Category
-
-> Creates a category for your counters.
 >
-> #### Usage:
+> #### Alias
 >
-> ```text
-> m!createcategory
-> ```
+> `server`
 
-### Update Category
-
-> Puts all of the counters back to their orginal positions.
->
-> #### Usage:
->
-> ```text
-> m!updatecategory
-> ```
-
-## Others
+## Other
 
 ### Data
 
-> Returns all of the permanently stored data about your server. I want you to know that you are safe.
+> Returns all the data I have stored about your server.
 >
-> #### Usage:
+> #### Usage
 >
 > ```text
 > m!data
@@ -160,17 +167,21 @@ description: 'On this page, you will find all the commands of the bot.'
 
 > Returns information about the bot.
 >
-> #### Usage:
+> #### Usage
 >
 > ```text
 > m!info
 > ```
+>
+> #### Aliases
+>
+> `stats`, `about`
 
 ### Ping
 
-> Returns with the bot's API ping.
+> Returns with the bot's ping.
 >
-> #### Usage:
+> #### Usage
 >
 > ```text
 > m!ping
