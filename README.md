@@ -12,7 +12,9 @@ Cosmetic counters, aesthetically pleasing for both you and your server members. 
 >
 >     Member Count: 888  
 >     User Count: 880  
->     Bot Count: 8
+>     Bot Count: 8  
+>     Role Count: 88  
+>     Channel Count: 88
 
 ## Getting Started
 
