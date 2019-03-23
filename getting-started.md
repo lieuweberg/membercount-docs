@@ -13,11 +13,13 @@ With simply two steps, the setup for Member Count is done.
 
 You can enable and disable certain counters with the following commands.
 
-Member count: `m!membercount <on/off>`  
-User count: `m!usercount <on/off>`  
-Bot count: `m!botcount <on/off>`
+Member count: `m!counter members <on/off>`  
+User count: `m!counter users <on/off>`  
+Bot count: `m!counter bots <on/off>`  
+Role count: `m!counter roles <on/off>`  
+Channel count: `m!counter channels <on/off>`
 
-More information on this can be found on the [commands ](commands-extended.md)page.
+More information on this can be found on the [commands](commands-extended.md) page.
 
 ## Support
 

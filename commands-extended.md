@@ -35,7 +35,7 @@ description: 'On this page, you will find all the commands of the bot.'
 > **Examples:**
 >
 > ```text
-> m!counter user on => turns the user counter on
+> m!counter users on => turns the user counter on
 > m!counter channels off => turns the channels counter off.
 > ```
 >
