@@ -9,7 +9,7 @@ Please check the following before asking for help.
 
 ## How do I change the prefix?
 
-You can't change the prefix of the bot currently. If another bot coincidentally has the same prefix as Member Count, you can mention the bot with the command. For example: `@Member Count#7205 ping`.
+Yes, you can. Use the command `m!prefix <new prefix>`. You can also mention the bot with the command. So if you forgot the prefix, you can do `@Member Count#7205 prefix`.
 
 ## How do I change the counter names?
 
