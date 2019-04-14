@@ -35,7 +35,8 @@ Refer to [Commands \(extended\)](commands-extended.md) to also find a descriptio
     <tr>
       <td style="text-align:left">m!counter</td>
       <td style="text-align:left">
-        <p>&lt;counter&gt; &lt;on/off&gt;</p>
+        <p>&lt;counter&gt; &lt;on/off&gt;
+          <br />role &lt;add/remove&gt; &lt;role&gt;</p>
         <p>update</p>
       </td>
     </tr>
@@ -66,7 +67,11 @@ Refer to [Commands \(extended\)](commands-extended.md) to also find a descriptio
     </tr>
     <tr>
       <td style="text-align:left">m!memberlist</td>
-      <td style="text-align:left">[-ids] [-nicks]</td>
+      <td style="text-align:left">[-nicks] [-ids] [-created] [-joined] [-roles]</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">m!prefix</td>
+      <td style="text-align:left">[new prefix]</td>
     </tr>
     <tr>
       <td style="text-align:left">m!support</td>

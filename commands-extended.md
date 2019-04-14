@@ -21,7 +21,8 @@ description: 'On this page, you will find all the commands of the bot.'
 > #### Usage
 >
 > ```text
-> m!membercount <on/off>
+> m!category create
+> m!category update
 > ```
 >
 > #### Alias
@@ -45,6 +46,7 @@ description: 'On this page, you will find all the commands of the bot.'
 >
 > ```text
 > m!counter <counter> <on/off>
+> m!counter role <add/remove> <role>
 > m!counter update
 > ```
 >
@@ -55,6 +57,8 @@ description: 'On this page, you will find all the commands of the bot.'
 ### Counter Name \(Patrons only\)
 
 > Changes the name of the specified counter. The available counters are member, user, bot, roles, channels. Include `{count}` in the name, where you want the count \(the number\) to be. 
+>
+> To revert the name back to the default, use `default` for the new name.
 >
 > **Example:**
 >
@@ -116,26 +120,40 @@ description: 'On this page, you will find all the commands of the bot.'
 >
 > **Flags:** 
 >
-> `-ids` includes the id of every user, separated by `||`.   
-> `-nicks` instead of usernames, this will return nicknames.   
-> _You can use both flags in one command._ 
+> `-nicks` include the nicknames of the members.   
+> `-ids` include the IDs of the members.   
+> `-created` include the account creation dates of the members.   
+> `-joined` include the server join dates of the members.   
+> `-roles` include the roles of the members
 >
 > **Examples:**
 >
 > ```text
-> m!memberlist -nicks
-> m!memberlist -ids -nicks
+> m!memberlist -nicks -ids
+> m!memberlist -ids -joined -roles
 > ```
+>
+>  Tip: Use font Consolas and disable word wrap in your text editor.
 >
 > #### Usage
 >
 > ```text
-> m!memberlist [-ids] [-nicks]
+> m!memberlist [-nicks] [-ids] [-created] [-joined] [-roles]
 > ```
 >
 > #### Alias
 >
 > `mlist`
+
+### Prefix
+
+> Display or change the prefix for this server. To revert the prefix back to the default, use `default` for the new prefix.
+>
+> #### Usage
+>
+> ```text
+> m!prefix [new prefix]
+> ```
 
 ### Support
 

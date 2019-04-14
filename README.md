@@ -10,11 +10,14 @@ Cosmetic counters, aesthetically pleasing for both you and your server members. 
 
 > 📊**SERVER STATS**📊
 >
->     Member Count: 888  
->     User Count: 880  
->     Bot Count: 8  
->     Role Count: 88  
->     Channel Count: 88
+>     Member Count: 1000  
+>     User Count: 980  
+>     Bot Count: 20  
+>     Role Count: 80  
+>     Channel Count: 80  
+>     Moderator Count: 10  
+>     Online Count: 800  
+>     Offline Count: 200
 
 ## Getting Started
 

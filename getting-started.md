@@ -17,7 +17,10 @@ Member count: `m!counter members <on/off>`
 User count: `m!counter users <on/off>`  
 Bot count: `m!counter bots <on/off>`  
 Role count: `m!counter roles <on/off>`  
-Channel count: `m!counter channels <on/off>`
+Channel count: `m!counter channels <on/off>`  
+Members in role count: `m!counter role <add/remove> <role>`  
+Online count: `m!counter online <on/off>`  
+Offline count: `m!counter offline <on/off>`
 
 More information on this can be found on the [commands](commands-extended.md) page.
 
